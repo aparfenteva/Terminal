@@ -1,0 +1,26 @@
+  1  pwd
+  2  mkdir group_33
+  3  cd group_33
+  4  mkdir dir_1 dir_2 dir_3
+  5  ls -la
+  6  cd dir_1
+  7  touch 1.txt 2.txt 3.txt 4.json 5.json
+  8  ls -la
+  9  cat >> 1.txt
+  10  mv 5.json ~/Documents/git/HW1/group_33/dir_2/5.json
+  11  mv 4.json ~/Documents/git/HW1/group_33/dir_2/4.json
+  12  mv 1.txt ~/Documents/git/HW1/group_33/dir_3/1.txt
+  13  mv 2.txt ~/Documents/git/HW1/group_33/dir_3/2.txt
+  14  cd dir_3
+  15  cd ..
+  16  cd dir_3
+  17  cp 1.txt ~/Documents/git/HW1/group_33/dir_2/1.txt
+  18  cp 2.txt ~/Documents/git/HW1/group_33/dir_2/2.txt
+  19  cd ..
+  20  find -name "3.txt"
+  21  grep -r this
+  22  head -n2 dir_3/1.txt
+  23  tail -n2 dir_3/1.txt
+  24  less -n2 dir_3/1.txt
+  25  date
+  26  date -u
